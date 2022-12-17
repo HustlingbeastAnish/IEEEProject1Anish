@@ -1,0 +1,25 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#userimage {
+  height: 250px;
+  width: 318px;
+}
+#Main {
+  /* background-image: url("./images/img3.jpg"); */
+  width: 100%;
+  height: cover;
+  padding-top: 10vh;
+  background-size: cover;
+  background-repeat: none;
+  opacity: 1;
+  color: "black";
+}
+.topheading {
+  color: #463a3a;
+}
+.stats {
+  background-color: rgb(92, 136, 136);
+}

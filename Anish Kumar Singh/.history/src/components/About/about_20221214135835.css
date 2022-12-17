@@ -1,0 +1,51 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Oswald", sans-serif;
+}
+.about {
+  width: 100%;
+  height: 100vh;
+  padding-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+  /* opacity: 0.9; */
+}
+.carousel .item {
+  height: 300px;
+}
+.content_about {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+}
+@media all and (max-width: 500px) {
+}
+.anishlogo {
+  height: 102px;
+  width: 106px;
+  border-radius: 330px;
+  transition: all 0.2s ease-in-out;
+}
+.anishlogo:hover {
+  transform: scale(1.2);
+}
+.carousel {
+  width: 640px;
+  height: 360px;
+}
+#result1 {
+  width: 600px;
+  height: 420px;
+}
+.containera {
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  background-color: #5c5750;
+  padding: 15px 15px;
+  width: auto;
+}

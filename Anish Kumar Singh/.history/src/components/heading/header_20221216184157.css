@@ -1,0 +1,32 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background: #ddd;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#demo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 80%;
+  height: 80%;
+  max-height: 80%;
+  max-width: 80%;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+#action {
+  padding: 10px;
+  font-size: 0.875em;
+  margin: 10px;
+  cursor: pointer;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+}

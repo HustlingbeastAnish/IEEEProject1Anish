@@ -1,0 +1,4 @@
+.navbar-nav :hover {
+  transform: scale(1.2);
+  color: rgb(204, 23, 23);
+}

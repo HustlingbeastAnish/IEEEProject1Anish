@@ -1,0 +1,140 @@
+import React from "react";
+import "./project.css";
+import Pr1 from "./Projectimages/Project1.jfif";
+import Pr2 from "./Projectimages/Project2.jfif";
+import Pr3 from "./Projectimages/pj3.png";
+import Pr4 from "./Projectimages/pj4.jpg";
+function project(props) {
+  return (
+    <>
+      <div
+        className="containerProj"
+        style={{
+          backgroundColor:
+            props.mode === "light" ? "rgb(163, 158, 161)" : "black",
+        }}
+      >
+        <h1 style={{ color: "white" }}>Projects!</h1>
+        <button
+          type="button"
+          class="btn btn-primary"
+          data-toggle="modal"
+          data-target="#exampleModalCenter"
+        >
+          Launch demo modal
+        </button>
+
+        <div
+          class="modal fade"
+          id="exampleModalCenter"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="exampleModalCenterTitle"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">
+                  Modal title
+                </h5>
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">...</div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-dismiss="modal"
+                >
+                  Close
+                </button>
+                <button type="button" class="btn btn-primary">
+                  Save changes
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="container d-flex">
+          <div className="containerp">
+            <div className="card mx-5 my-5" style={{ width: "18rem" }}>
+              <img src={Pr1} className="card-img-top" alt="..." />
+              <div className="card">
+                <div className="card-header">Featured</div>
+                <a href="/#" className="btn btn-primary">
+                  Go somewhere
+                </a>
+              </div>
+            </div>
+            <div className="card mx-5 my-5" style={{ width: "18rem" }}>
+              <img src={Pr2} className="card-img-top" alt="..." />
+              <div className="card">
+                <div className="card-header">Featured</div>
+                <a href="/#" className="btn btn-primary">
+                  Go somewhere
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="containerp">
+            <div className="card mx-5 my-5" style={{ width: "18rem" }}>
+              <img
+                src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                className="card-img-top"
+                alt="..."
+                style={{
+                  height: "136px",
+                }}
+              />
+              <div className="card">
+                <div className="card-header">Featured</div>
+                <a href="/#" className="btn btn-primary">
+                  Go somewhere
+                </a>
+              </div>
+            </div>
+            <div className="card mx-5 my-5" style={{ width: "18rem" }}>
+              <img src={Pr3} className="card-img-top" alt="..." />
+              <div className="card">
+                <div className="card-header">Featured</div>
+                <a href="/#" className="btn btn-primary">
+                  Go somewhere
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="containerp">
+            <div className="card mx-5 my-5" style={{ width: "18rem" }}>
+              <img src={Pr4} className="card-img-top" alt="..." />
+              <div className="card">
+                <div className="card-header">Featured</div>
+                <a href="/#" className="btn btn-primary">
+                  Go somewhere
+                </a>
+              </div>
+            </div>
+            <div className="card mx-5 my-5" style={{ width: "18rem" }}>
+              <img src={Pr2} className="card-img-top" alt="..." />
+              <div className="card">
+                <div className="card-header">Featured</div>
+                <a href="/#" className="btn btn-primary">
+                  Go somewhere
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+}
+
+export default project;
